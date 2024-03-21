@@ -10,14 +10,22 @@ ul {
     list-style: none;
 }
 
+.galeria-img {
+    transition: transform 0.4s ease-in-out;
+}
+
+.galeria-img:hover {
+    transform: scale(1.5);
+}
+
 #enviar {
-  background-color: $verde;
-  border-color: $verde;
-  color: $fondoclaro;
+    background-color: $verde;
+    border-color: $verde;
+    color: $fondoclaro;
 }
 
 #borrar {
-  background-color: $verde;
-  border-color: $verde;
-  color: $fondoclaro;
+    background-color: $verde;
+    border-color: $verde;
+    color: $fondoclaro;
 }
