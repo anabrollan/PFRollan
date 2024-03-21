@@ -1,5 +1,6 @@
 $amarillo: #ffdb83;
 $fondoclaro: #FFEBC0;
+$verde: #8cae9d;
 
 body {
     background-color: $fondoclaro;
@@ -7,4 +8,16 @@ body {
 
 ul {
     list-style: none;
+}
+
+#enviar {
+  background-color: $verde;
+  border-color: $verde;
+  color: $fondoclaro;
+}
+
+#borrar {
+  background-color: $verde;
+  border-color: $verde;
+  color: $fondoclaro;
 }

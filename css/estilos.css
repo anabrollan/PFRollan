@@ -4,4 +4,16 @@ body {
 
 ul {
   list-style: none;
+}
+
+#enviar {
+  background-color: #8cae9d;
+  border-color: #8cae9d;
+  color: #FFEBC0;
+}
+
+#borrar {
+  background-color: #8cae9d;
+  border-color: #8cae9d;
+  color: #FFEBC0;
 }/*# sourceMappingURL=estilos.css.map */
