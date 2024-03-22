@@ -2,6 +2,15 @@ $amarillo: #ffdb83;
 $fondoclaro: #FFEBC0;
 $verde: #8cae9d;
 
+a {
+    color: $verde;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $verde;
+  }
+
 body {
     background-color: $fondoclaro;
 }
