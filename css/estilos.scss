@@ -38,3 +38,19 @@ ul {
     border-color: $verde;
     color: $fondoclaro;
 }
+
+#accordionExample .accordion-button {
+    &.collapsed {
+        font-weight: bold;
+        color: $amarillo;
+        background-color: $verde;
+    }
+    font-weight: bold;
+    color: $amarillo;
+    background-color: $verde;
+}
+
+
+
+
+

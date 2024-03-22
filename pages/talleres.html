@@ -12,7 +12,6 @@
     <!--Título-->
     <title>Sobre mí - Kalandra</title>
 </head>
-<body>
     <!--NavBar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -41,23 +40,32 @@
           </div>
         </div>
       </nav>
-      <!--Acordeón de talleres-->
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Talleres online sincrónicos
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              Se trata de talleres virtuales, a través de la plataforma Meet, que se realizan en un día y hora determinados y quedan grabados posteriormente, con acceso de por vida. Puedes estar presente durante la sesión sincrónica o, simplemente, ver la grabación cuando más te acomode, todas las veces que sea necesario.
-            </div>
-          </div>
-        </div>
+      <!-- Acordeón de talleres y foto -->
+      <div class="container text-center p-5">
+        <div class="row">
+          <!-- Acordeón de talleres -->
+          <div class="col-md-7">
+            <h1>Modalidades de talleres disponibles</h1>
+            <p>Las modalidades de talleres son flexibles y acordes a las necesidades de cada persona o grupo.</p>
+            <p>Si bien me dedico principalmente la encuadernación artesanal, también puedo combinar este oficio con otras artes, tales como el bordado, el lettering o la acuarela.</p>
+            <p>Revisa las opciones de talleres disponibles y <a href=contacto.html>envíame un mensaje</a> para concretar una fecha que nos acomode a ambas partes.</p>
+            <div class="accordion" id="accordionExample">
+              <!-- Primer elemento del acordeón -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Talleres online sincrónicos
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Se trata de talleres virtuales, a través de la plataforma Meet, que se realizan en un día y hora determinados y quedan grabados posteriormente, con acceso de por vida. Puedes estar presente durante la sesión sincrónica o, simplemente, ver la grabación cuando más te acomode, todas las veces que sea necesario.
+                  </div>
+                </div>
+              </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="accordion-button text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Talleres grabados
             </button>
           </h2>
@@ -69,7 +77,7 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="accordion-button text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Talleres presenciales grupales
             </button>
           </h2>
@@ -81,7 +89,7 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button class="accordion-button text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               Talleres presenciales individuales
             </button>
           </h2>
@@ -93,7 +101,7 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <button class="accordion-button text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
               Talleres presenciales a domicilio
             </button>
           </h2>
@@ -102,8 +110,17 @@
               Estoy disponible para talleres a domicilio, para particulares o empresas, tanto en Santiago como en el resto de Chile.
             </div>
           </div>
+        </div>      
+      </div>
+    </div>
+      <!-- Foto taller -->
+      <div class="col-md-5">
+        <div>
+          <img src="../assets/talleres.jpg" alt="Sala preparada para un taller presencial" class="img-fluid">
         </div>
-      </div>      
+      </div>
+    </div>
+  </div>
       <!--Footer-->
     <footer class="bg-dark text-white p-3" style="position: sticky; bottom: 0; width: 100%;">
       <div class="container text-center">

@@ -33,4 +33,15 @@ ul {
   background-color: #8cae9d;
   border-color: #8cae9d;
   color: #FFEBC0;
+}
+
+#accordionExample .accordion-button {
+  font-weight: bold;
+  color: #ffdb83;
+  background-color: #8cae9d;
+}
+#accordionExample .accordion-button.collapsed {
+  font-weight: bold;
+  color: #ffdb83;
+  background-color: #8cae9d;
 }/*# sourceMappingURL=estilos.css.map */
