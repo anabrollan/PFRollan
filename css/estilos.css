@@ -2,7 +2,6 @@ a {
   color: #8cae9d;
   text-decoration: none;
 }
-
 a:hover {
   color: #8cae9d;
 }
@@ -18,18 +17,11 @@ ul {
 .galeria-img {
   transition: transform 0.4s ease-in-out;
 }
-
 .galeria-img:hover {
   transform: scale(1.5);
 }
 
-#enviar {
-  background-color: #8cae9d;
-  border-color: #8cae9d;
-  color: #FFEBC0;
-}
-
-#borrar {
+#enviar, #borrar {
   background-color: #8cae9d;
   border-color: #8cae9d;
   color: #FFEBC0;
@@ -42,6 +34,4 @@ ul {
 }
 #accordionExample .accordion-button.collapsed {
   font-weight: bold;
-  color: #ffdb83;
-  background-color: #8cae9d;
 }/*# sourceMappingURL=estilos.css.map */

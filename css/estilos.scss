@@ -2,14 +2,24 @@ $amarillo: #ffdb83;
 $fondoclaro: #FFEBC0;
 $verde: #8cae9d;
 
-a {
+@mixin enlaces {
     color: $verde;
     text-decoration: none;
+
+    &:hover {
+        color: $verde;
+    }
 }
 
-a:hover {
-    color: $verde;
-  }
+@mixin botones-enviar-borrar {
+    background-color: $verde;
+    border-color: $verde;
+    color: $fondoclaro;
+}
+
+a {
+    @include enlaces;
+}
 
 body {
     background-color: $fondoclaro;
@@ -21,36 +31,22 @@ ul {
 
 .galeria-img {
     transition: transform 0.4s ease-in-out;
+
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
-.galeria-img:hover {
-    transform: scale(1.5);
-}
-
-#enviar {
-    background-color: $verde;
-    border-color: $verde;
-    color: $fondoclaro;
-}
-
-#borrar {
-    background-color: $verde;
-    border-color: $verde;
-    color: $fondoclaro;
+#enviar, #borrar {
+    @include botones-enviar-borrar;
 }
 
 #accordionExample .accordion-button {
-    &.collapsed {
-        font-weight: bold;
-        color: $amarillo;
-        background-color: $verde;
-    }
     font-weight: bold;
     color: $amarillo;
     background-color: $verde;
+
+    &.collapsed {
+        font-weight: bold;
+    }
 }
-
-
-
-
-
