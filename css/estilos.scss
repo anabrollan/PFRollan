@@ -1,3 +1,7 @@
+@use 'accordion';
+@use 'form';
+@use 'galeria';
+
 $amarillo: #ffdb83;
 $fondoclaro: #FFEBC0;
 $verde: #8cae9d;
@@ -11,12 +15,6 @@ $verde: #8cae9d;
     }
 }
 
-@mixin botones-enviar-borrar {
-    background-color: $verde;
-    border-color: $verde;
-    color: $fondoclaro;
-}
-
 a {
     @include enlaces;
 }
@@ -27,26 +25,4 @@ body {
 
 ul {
     list-style: none;
-}
-
-.galeria-img {
-    transition: transform 0.4s ease-in-out;
-
-    &:hover {
-        transform: scale(1.5);
-    }
-}
-
-#enviar, #borrar {
-    @include botones-enviar-borrar;
-}
-
-#accordionExample .accordion-button {
-    font-weight: bold;
-    color: $amarillo;
-    background-color: $verde;
-
-    &.collapsed {
-        font-weight: bold;
-    }
 }

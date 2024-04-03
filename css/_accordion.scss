@@ -1,0 +1,14 @@
+#accordionExample .accordion-button {
+    font-weight: bold;
+    color: $amarillo;
+    background-color: $verde;
+
+    &.collapsed {
+        font-weight: bold;
+    }
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}

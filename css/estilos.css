@@ -18,7 +18,7 @@ ul {
   transition: transform 0.4s ease-in-out;
 }
 .galeria-img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 #enviar, #borrar {
@@ -34,4 +34,9 @@ ul {
 }
 #accordionExample .accordion-button.collapsed {
   font-weight: bold;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
 }/*# sourceMappingURL=estilos.css.map */

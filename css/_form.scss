@@ -1,0 +1,9 @@
+#enviar, #borrar {
+    @include botones-enviar-borrar;
+}
+
+@mixin botones-enviar-borrar {
+    background-color: $verde;
+    border-color: $verde;
+    color: $fondoclaro;
+}
